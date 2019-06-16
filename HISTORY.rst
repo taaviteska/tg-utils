@@ -2,6 +2,49 @@
 History
 =======
 
+0.7.1 (2019-06-03)
+------------------
+
+* Add extra require for `hashids`.
+* Fix usage of deprecated from `hashids`.
+
+
+0.7.0 (2019-05-13)
+------------------
+
+* Updated dependencies to support Django LTS correctly.
+
+
+0.6.1 (2019-03-17)
+------------------
+
+* Added health-check for celery and celery beat. Thanks @iharthi
+
+0.6.0 (2019-03-21)
+------------------
+
+* Added health-check helpers. Thanks @iharthi
+
+0.5.0 (2019-02-07)
+------------------
+
+* Added locking decorator. Thanks @iharthi
+
+0.4.0 (2019-02-07)
+------------------
+
+* Supported Django and Python versions are listed below
+
+===============  ==================
+Django version   Python versions
+---------------  ------------------
+Django 1.8       3.4, 3.5, 3.6
+Django 1.11      3.4, 3.5, 3.6
+Django 2.0       3.4, 3.5, 3.6, 3.7
+Django 2.1       3.5, 3.6, 3.7
+===============  ==================
+
+
 0.3.0 (2018-03-12)
 ------------------
 
